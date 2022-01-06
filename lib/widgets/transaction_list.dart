@@ -24,8 +24,9 @@ class TransactionList extends StatelessWidget {
                           color: Theme.of(context).primaryColor, width: 2)),
                   padding: EdgeInsets.all(10),
                   child: Text(
-                    "\$${transactions[index].amount}",
+                    "₹${transactions[index].amount}",
                     style: TextStyle(
+                        fontFamily: 'Quicksand',
                         fontWeight: FontWeight.bold,
                         fontSize: 20,
                         color: Theme.of(context).primaryColor),
@@ -37,8 +38,9 @@ class TransactionList extends StatelessWidget {
                     Text(
                       transactions[index].title as String,
                       style: TextStyle(
-                        fontSize: 16,
+                        fontSize: 18,
                         fontWeight: FontWeight.bold,
+                        fontFamily: 'Quicksand',
                       ),
                     ),
                     Text(
