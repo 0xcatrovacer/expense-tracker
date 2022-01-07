@@ -22,9 +22,9 @@ class MyApp extends StatelessWidget {
           fontFamily: 'Quicksand',
           appBarTheme: AppBarTheme(
             titleTextStyle: TextStyle(
-              fontFamily: 'OpenSans',
-              fontSize: 20,
-            ),
+                fontFamily: 'OpenSans',
+                fontSize: 20,
+                fontWeight: FontWeight.bold),
           )),
       home: MyHomePage(),
     );
